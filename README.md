@@ -44,7 +44,8 @@ Follow the precise steps below to set up the project:
    terraform init 
 3. Review and modify variables in terraform.tfvars file.
 4. Deploy the infrastructure:
-   ```bash terraform apply 
+   ```bash 
+   terraform apply 
    # add your on database password 
 
 ## Accessing the Application
