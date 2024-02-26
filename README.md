@@ -36,19 +36,20 @@ Follow the precise steps below to set up the project:
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_directory> 
+   git clone https://github.com/orasraf12/3-tier-application-Demo.git
+   cd terraform 
 
 2. Initialize Terraform:
-''' terraform init '''
+   ``bash
+   terraform init 
 3. Review and modify variables in terraform.tfvars file.
 4. Deploy the infrastructure:
-''' terraform apply 
- # add your on database password '''
+   ``bash terraform apply 
+   # add your on database password '''
 
 ## Accessing the Application
 Access the application through the public URL provided by the ALB. 
-Connecting to ec2 machine using Sesion Manager .
+Access the to EC2 machine using Sesion Manager.
 
 
 
