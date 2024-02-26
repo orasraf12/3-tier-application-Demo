@@ -40,12 +40,12 @@ Follow the precise steps below to set up the project:
    cd terraform 
 
 2. Initialize Terraform:
-   ``bash
+   ```bash
    terraform init 
 3. Review and modify variables in terraform.tfvars file.
 4. Deploy the infrastructure:
-   ``bash terraform apply 
-   # add your on database password '''
+   ```bash terraform apply 
+   # add your on database password 
 
 ## Accessing the Application
 Access the application through the public URL provided by the ALB. 
