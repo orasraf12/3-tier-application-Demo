@@ -51,10 +51,9 @@ Follow the precise steps below to set up the project:
    # Enter your database password when prompted
 
 
-## Accessing the Application
-```bash 
-Access the application through the public URL provided by the ALB.
-Access the EC2 machines using Session Manager.
+## Accessing the Application 
+   Access the application through the public URL provided by the ALB.
+   Access the EC2 machines using Session Manager. 
 
 
 
